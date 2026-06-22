@@ -3,91 +3,93 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Memora Privacy Policy and Gizlilik Politikasi for analytics, ads, Firebase services and app data."
-    />
+    <meta name="description" content="Memora Privacy Policy for analytics, ads, Firebase services and app data." />
     <title>Memora Privacy Policy | Gizlilik Politikasi</title>
     <link rel="stylesheet" href="legal.css" />
+    <script src="legal.js" defer></script>
   </head>
-  <body>
+  <body data-lang="en">
     <main class="page-shell">
       <header class="topbar" aria-label="Memora legal navigation">
         <a class="brand" href="index.html">
           <span class="brand-mark">M</span>
           <span>Memora</span>
         </a>
-        <nav class="nav-links" aria-label="Legal pages">
-          <a href="privacy-policy.html">Privacy Policy</a>
-          <a href="terms-of-usage.html">Terms of Usage</a>
-          <a href="#english">English</a>
-          <a href="#turkce">Turkce</a>
-        </nav>
+        <div class="nav-actions">
+          <nav class="nav-links" aria-label="Legal pages">
+            <a href="privacy-policy.html" aria-current="page">Privacy</a>
+            <a href="terms-of-usage.html">Terms</a>
+          </nav>
+          <div class="language-toggle" aria-label="Language selector">
+            <button type="button" data-language="en">EN</button>
+            <button type="button" data-language="tr">TR</button>
+          </div>
+        </div>
       </header>
 
       <section class="hero">
-        <div>
-          <p class="eyebrow">Legal / Privacy</p>
-          <h1>Privacy Policy<br />Gizlilik Politikasi</h1>
-          <p class="lead">
-            Memora is a memory, brain training, IQ, EQ and word puzzle app. This page explains what data may be processed when you use the app.
-          </p>
+        <div class="hero-copy lang-en">
+          <p class="eyebrow">Privacy</p>
+          <h1>Privacy Policy</h1>
+          <p class="lead">How Memora may process app interactions, analytics, ads, device information and content loading data.</p>
         </div>
-        <aside class="meta-card" aria-label="Policy metadata">
-          <span>Last updated</span>
-          <strong>June 23, 2026</strong>
-          <span style="margin-top: 14px">App</span>
-          <strong>Memora</strong>
+        <div class="hero-copy lang-tr">
+          <p class="eyebrow">Gizlilik</p>
+          <h1>Gizlilik Politikasi</h1>
+          <p class="lead">Memora'nin uygulama etkilesimleri, analitik, reklam, cihaz bilgileri ve icerik yukleme verilerini nasil isleyebilecegini aciklar.</p>
+        </div>
+        <aside class="meta-panel" aria-label="Policy metadata">
+          <div class="meta-card">
+            <span>Language</span>
+            <strong data-current-language>English</strong>
+          </div>
+          <div class="quick-card">
+            <span>Last updated</span>
+            <strong>June 23, 2026</strong>
+          </div>
         </aside>
       </section>
 
-      <div class="layout">
+      <section class="summary-grid lang-en" aria-label="Privacy summary">
+        <div class="summary-item"><span>Account</span><strong>No account is required</strong></div>
+        <div class="summary-item"><span>Ads</span><strong>Google Mobile Ads may be used</strong></div>
+        <div class="summary-item"><span>Analytics</span><strong>Firebase Analytics may be used</strong></div>
+        <div class="summary-item"><span>Purpose</span><strong>Education and entertainment</strong></div>
+      </section>
+
+      <section class="summary-grid lang-tr" aria-label="Gizlilik ozeti">
+        <div class="summary-item"><span>Hesap</span><strong>Hesap zorunlu degildir</strong></div>
+        <div class="summary-item"><span>Reklam</span><strong>Google Mobile Ads kullanilabilir</strong></div>
+        <div class="summary-item"><span>Analitik</span><strong>Firebase Analytics kullanilabilir</strong></div>
+        <div class="summary-item"><span>Amac</span><strong>Egitim ve eglence</strong></div>
+      </section>
+
+      <div class="layout lang-en">
         <aside class="toc" aria-label="Table of contents">
-          <h2>Contents</h2>
-          <a href="#english">English</a>
+          <h2>On This Page</h2>
+          <a href="#en-overview">Overview</a>
           <a href="#en-data">Data We Process</a>
-          <a href="#en-ads">Ads and Analytics</a>
+          <a href="#en-use">How We Use Data</a>
+          <a href="#en-services">Third-Party Services</a>
           <a href="#en-rights">Your Choices</a>
-          <a href="#turkce">Turkce</a>
-          <a href="#tr-veri">Islenen Veriler</a>
-          <a href="#tr-reklam">Reklam ve Analitik</a>
-          <a href="#tr-haklar">Haklariniz</a>
         </aside>
-
         <div class="content">
-          <div class="notice">
-            <p>
-              Memora's IQ and EQ results are for education and entertainment only. They are not medical, psychological, clinical or official assessments.
-            </p>
-          </div>
-
-          <section class="section" id="english">
-            <h2>Privacy Policy</h2>
-            <p>
-              This Privacy Policy describes how Memora processes information when you use the mobile app, web support pages and related services. By using Memora, you agree to the practices described here.
-            </p>
-            <div class="badge-row" aria-label="Privacy summary">
-              <span class="badge">No required account</span>
-              <span class="badge">Ads supported</span>
-              <span class="badge">Analytics used</span>
-              <span class="badge">Firebase services</span>
-            </div>
+          <div class="notice"><p>Memora's IQ and EQ results are for education and entertainment only. They are not medical, psychological, clinical or official assessments.</p></div>
+          <section class="section" id="en-overview">
+            <h2>Overview</h2>
+            <p>This Privacy Policy describes how Memora processes information when you use the mobile app, web support pages and related services. By using Memora, you agree to the practices described here.</p>
+            <div class="badge-row"><span class="badge">No required account</span><span class="badge">Ads supported</span><span class="badge">Analytics used</span><span class="badge">Firebase services</span></div>
           </section>
-
           <section class="section" id="en-data">
             <h2>Data We Process</h2>
-            <p>Memora may process the following categories of information:</p>
             <ul>
               <li>App interactions, such as selected game modes, scores, accuracy, progress, levels, sessions and feature usage.</li>
               <li>Device and app information, such as device identifiers, app version, platform, language setting and diagnostic information.</li>
               <li>Advertising and analytics information, such as ad impressions, ad performance events and aggregated usage trends.</li>
               <li>Content loading information for app features, including image assets used in 4 Pics 1 Word style puzzles.</li>
             </ul>
-            <p>
-              Memora does not require users to create an account. If account-based features are added later, this policy will be updated before or when those features become available.
-            </p>
+            <p>Memora does not require users to create an account. If account-based features are added later, this policy will be updated before or when those features become available.</p>
           </section>
-
           <section class="section" id="en-use">
             <h2>How We Use Data</h2>
             <ul>
@@ -98,73 +100,50 @@
               <li>To detect errors, abuse, fraud or security issues.</li>
             </ul>
           </section>
-
-          <section class="section" id="en-ads">
+          <section class="section" id="en-services">
             <h2>Ads, Analytics and Third-Party Services</h2>
-            <p>
-              Memora may use Firebase services and Google Mobile Ads. These services may process identifiers, usage data, diagnostics and advertising information according to their own terms and privacy policies.
-            </p>
+            <p>Memora may use Firebase services and Google Mobile Ads. These services may process identifiers, usage data, diagnostics and advertising information according to their own terms and privacy policies.</p>
             <ul>
               <li>Firebase Analytics may be used to understand app usage and performance.</li>
               <li>Firebase Storage may be used to deliver image assets and app content.</li>
               <li>Google Mobile Ads may be used to display ads and measure ad performance.</li>
             </ul>
-            <p>
-              Depending on your device, operating system and region, you may be able to limit ad tracking or reset your advertising identifier from your device settings.
-            </p>
           </section>
-
           <section class="section" id="en-rights">
             <h2>Your Choices and Rights</h2>
-            <p>
-              You can stop app data processing by uninstalling Memora. You can also manage device-level permissions, analytics preferences where available, and advertising choices from your operating system settings.
-            </p>
-            <p>
-              To request access, correction or deletion of data that may be associated with you, use the developer contact channel shown on the app store listing where you downloaded Memora.
-            </p>
+            <p>You can stop app data processing by uninstalling Memora. You can also manage device permissions, analytics preferences where available, and advertising choices from your operating system settings.</p>
+            <p>To request access, correction or deletion of data that may be associated with you, use the developer contact channel shown on the app store listing where you downloaded Memora.</p>
+            <p>We may update this Privacy Policy when app features, legal requirements or third-party services change. The latest version will be published on this page with an updated date.</p>
           </section>
+        </div>
+      </div>
 
-          <section class="section" id="en-children">
-            <h2>Children's Privacy</h2>
-            <p>
-              Memora is a general audience brain training and puzzle app. It is not designed to knowingly collect personal information from children. If you believe a child has provided personal information, contact us through the app store developer contact channel.
-            </p>
+      <div class="layout lang-tr">
+        <aside class="toc" aria-label="Icindekiler">
+          <h2>Bu Sayfada</h2>
+          <a href="#tr-genel">Genel Bakis</a>
+          <a href="#tr-veri">Islenen Veriler</a>
+          <a href="#tr-kullanim">Verileri Nasil Kullaniriz</a>
+          <a href="#tr-hizmetler">Ucuncu Taraf Hizmetleri</a>
+          <a href="#tr-haklar">Haklariniz</a>
+        </aside>
+        <div class="content">
+          <div class="notice"><p>Memora'daki IQ ve EQ sonuclari egitim ve eglence amaclidir. Tibbi, psikolojik, klinik veya resmi bir degerlendirme yerine gecmez.</p></div>
+          <section class="section" id="tr-genel">
+            <h2>Genel Bakis</h2>
+            <p>Bu Gizlilik Politikasi, Memora mobil uygulamasini, web destek sayfalarini ve ilgili hizmetleri kullandiginizda hangi bilgilerin islenebilecegini aciklar. Memora'yi kullanarak burada aciklanan uygulamalari kabul etmis olursunuz.</p>
+            <div class="badge-row"><span class="badge">Hesap zorunlu degil</span><span class="badge">Reklam destekli</span><span class="badge">Analitik kullanilir</span><span class="badge">Firebase hizmetleri</span></div>
           </section>
-
-          <section class="section" id="en-updates">
-            <h2>Changes to This Policy</h2>
-            <p>
-              We may update this Privacy Policy when app features, legal requirements or third-party services change. The latest version will be published on this page with an updated date.
-            </p>
-          </section>
-
-          <section class="section" id="turkce">
-            <h2>Gizlilik Politikasi</h2>
-            <p>
-              Bu Gizlilik Politikasi, Memora mobil uygulamasini, web destek sayfalarini ve ilgili hizmetleri kullandiginizda hangi bilgilerin islenebilecegini aciklar. Memora'yi kullanarak burada aciklanan uygulamalari kabul etmis olursunuz.
-            </p>
-            <div class="badge-row" aria-label="Gizlilik ozeti">
-              <span class="badge">Hesap zorunlu degil</span>
-              <span class="badge">Reklam destekli</span>
-              <span class="badge">Analitik kullanilir</span>
-              <span class="badge">Firebase hizmetleri</span>
-            </div>
-          </section>
-
           <section class="section" id="tr-veri">
             <h2>Islenen Veriler</h2>
-            <p>Memora asagidaki bilgi kategorilerini isleyebilir:</p>
             <ul>
               <li>Secilen oyun modlari, skor, dogruluk, ilerleme, seviye, oturum ve ozellik kullanimlari gibi uygulama etkilesimleri.</li>
               <li>Cihaz kimlikleri, uygulama surumu, platform, dil ayari ve tanilama bilgileri gibi cihaz ve uygulama bilgileri.</li>
               <li>Reklam gosterimleri, reklam performansi olaylari ve toplu kullanim egilimleri gibi reklam ve analitik bilgileri.</li>
               <li>4 Resim 1 Kelime benzeri bulmacalarda kullanilan gorsel varliklar dahil olmak uzere icerik yukleme bilgileri.</li>
             </ul>
-            <p>
-              Memora kullanmak icin hesap olusturmak zorunlu degildir. Hesap tabanli ozellikler daha sonra eklenirse bu politika guncellenecektir.
-            </p>
+            <p>Memora kullanmak icin hesap olusturmak zorunlu degildir. Hesap tabanli ozellikler daha sonra eklenirse bu politika guncellenecektir.</p>
           </section>
-
           <section class="section" id="tr-kullanim">
             <h2>Verileri Nasil Kullaniriz?</h2>
             <ul>
@@ -175,44 +154,20 @@
               <li>Hata, kotuye kullanim, sahtecilik veya guvenlik sorunlarini tespit etmek.</li>
             </ul>
           </section>
-
-          <section class="section" id="tr-reklam">
+          <section class="section" id="tr-hizmetler">
             <h2>Reklam, Analitik ve Ucuncu Taraf Hizmetleri</h2>
-            <p>
-              Memora, Firebase hizmetlerini ve Google Mobile Ads'i kullanabilir. Bu hizmetler kendi kosullari ve gizlilik politikalarina gore tanimlayicilar, kullanim verileri, tanilama bilgileri ve reklam bilgilerini isleyebilir.
-            </p>
+            <p>Memora, Firebase hizmetlerini ve Google Mobile Ads'i kullanabilir. Bu hizmetler kendi kosullari ve gizlilik politikalarina gore tanimlayicilar, kullanim verileri, tanilama bilgileri ve reklam bilgilerini isleyebilir.</p>
             <ul>
               <li>Firebase Analytics, uygulama kullanimi ve performansini anlamak icin kullanilabilir.</li>
               <li>Firebase Storage, gorsel varliklari ve uygulama iceriklerini sunmak icin kullanilabilir.</li>
               <li>Google Mobile Ads, reklam gostermek ve reklam performansini olcmek icin kullanilabilir.</li>
             </ul>
-            <p>
-              Cihaziniza, isletim sisteminize ve bolgenize bagli olarak reklam izlemeyi sinirlandirabilir veya reklam kimliginizi cihaz ayarlarindan sifirlayabilirsiniz.
-            </p>
           </section>
-
           <section class="section" id="tr-haklar">
             <h2>Tercihleriniz ve Haklariniz</h2>
-            <p>
-              Memora'yi kaldirarak uygulama tarafindaki veri islemeyi durdurabilirsiniz. Ayrica cihaz izinlerini, varsa analitik tercihlerini ve reklam seceneklerini isletim sistemi ayarlarinizdan yonetebilirsiniz.
-            </p>
-            <p>
-              Sizinle iliskilendirilebilecek verilere erisim, duzeltme veya silme talebinde bulunmak icin Memora'yi indirdiginiz uygulama magazasindaki gelistirici iletisim kanalini kullanabilirsiniz.
-            </p>
-          </section>
-
-          <section class="section" id="tr-cocuklar">
-            <h2>Cocuklarin Gizliligi</h2>
-            <p>
-              Memora genel kitleye yonelik bir zihin egzersizi ve bulmaca uygulamasidir. Cocuklardan bilerek kisisel bilgi toplamak amaciyla tasarlanmamistir. Bir cocugun kisisel bilgi sagladigini dusunuyorsaniz uygulama magazasindaki gelistirici iletisim kanalindan bize ulasabilirsiniz.
-            </p>
-          </section>
-
-          <section class="section" id="tr-guncelleme">
-            <h2>Politika Degisiklikleri</h2>
-            <p>
-              Uygulama ozellikleri, yasal gereklilikler veya ucuncu taraf hizmetleri degistiginde bu Gizlilik Politikasi guncellenebilir. En guncel surum bu sayfada yeni tarih bilgisiyle yayinlanir.
-            </p>
+            <p>Memora'yi kaldirarak uygulama tarafindaki veri islemeyi durdurabilirsiniz. Ayrica cihaz izinlerini, varsa analitik tercihlerini ve reklam seceneklerini isletim sistemi ayarlarinizdan yonetebilirsiniz.</p>
+            <p>Sizinle iliskilendirilebilecek verilere erisim, duzeltme veya silme talebinde bulunmak icin Memora'yi indirdiginiz uygulama magazasindaki gelistirici iletisim kanalini kullanabilirsiniz.</p>
+            <p>Uygulama ozellikleri, yasal gereklilikler veya ucuncu taraf hizmetleri degistiginde bu Gizlilik Politikasi guncellenebilir. En guncel surum bu sayfada yeni tarih bilgisiyle yayinlanir.</p>
           </section>
         </div>
       </div>
